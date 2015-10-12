@@ -2,5 +2,7 @@
     "RedisIp": "SYS_REDIS_HOST",
 	"RedisPort": "SYS_REDIS_PORT",
 	"RedisDb": "SYS_REDIS_DB",
-	"ArdsContinueUrl":"SYS_SERVICE_AC"
+	"Port":"HOST_ARDSLITEROUTINGENGINE_PORT",
+	"ArdsServiceHost":"SYS_ARDSLITESERVICE_HOST",
+	"ArdsServicePort":"SYS_ARDSLITESERVICE_PORT"
 }

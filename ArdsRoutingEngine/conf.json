@@ -1,6 +1,8 @@
 {
-    "RedisIp": "192.168.1.194",
+    "RedisIp": "192.168.3.200",
 	"RedisPort": "6379",
-	"RedisDb": 6,
-	"ArdsContinueUrl":"http://localhost:2225/DVP/API/1.0.0.0/ARDS/continueprocess"
+	"RedisDb": 5,
+	"Port":"2228",
+	"ArdsServiceHost":"192.168.0.15",
+	"ArdsServicePort":"2226"
 }

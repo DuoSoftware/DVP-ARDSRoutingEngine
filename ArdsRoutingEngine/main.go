@@ -8,16 +8,20 @@ import (
 
 type Configuration struct {
 	RedisIp         string
-	RedisDb         int
-	ArdsContinueUrl string
 	RedisPort       string
+	RedisDb         int
+	Port            string
+	ArdsServiceHost string
+	ArdsServicePort string
 }
 
 type EnvConfiguration struct {
 	RedisIp         string
-	RedisDb         string
-	ArdsContinueUrl string
 	RedisPort       string
+	RedisDb         string
+	Port            string
+	ArdsServiceHost string
+	ArdsServicePort string
 }
 
 type Request struct {
