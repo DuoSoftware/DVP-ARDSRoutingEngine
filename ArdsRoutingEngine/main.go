@@ -49,7 +49,7 @@ func main() {
 	fmt.Println("Starting Ards Route Engine")
 	InitiateRedis()
 	for {
-		fmt.Println("Searching...")
+		//fmt.Println("Searching...")
 		availablePHashes := GetAllProcessingHashes()
 		for _, h := range availablePHashes {
 			go ExecuteRequestHash(h)
