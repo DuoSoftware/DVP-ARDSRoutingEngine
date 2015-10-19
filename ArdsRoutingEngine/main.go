@@ -7,21 +7,17 @@ import (
 )
 
 type Configuration struct {
-	RedisIp         string
-	RedisPort       string
-	RedisDb         int
-	Port            string
-	ArdsServiceHost string
-	ArdsServicePort string
+	RedisIp   string
+	RedisPort string
+	RedisDb   int
+	Port      string
 }
 
 type EnvConfiguration struct {
-	RedisIp         string
-	RedisPort       string
-	RedisDb         string
-	Port            string
-	ArdsServiceHost string
-	ArdsServicePort string
+	RedisIp   string
+	RedisPort string
+	RedisDb   string
+	Port      string
 }
 
 type Request struct {
@@ -41,6 +37,10 @@ type Request struct {
 	SelectionAlgo    string
 	RequestServerUrl string
 	HandlingResource string
+	ResourceCount    int
+	OtherInfo        string
+	LbIp             string
+	LbPort           string
 }
 
 const layout = "2006-01-02T15:04:05Z07:00"

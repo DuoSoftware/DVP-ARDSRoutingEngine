@@ -2,7 +2,5 @@
     "RedisIp": "192.168.3.200",
 	"RedisPort": "6379",
 	"RedisDb": 5,
-	"Port":"2228",
-	"ArdsServiceHost":"192.168.0.15",
-	"ArdsServicePort":"2226"
+	"Port":"2228"
 }
